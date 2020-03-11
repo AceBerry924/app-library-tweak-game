@@ -34,12 +34,12 @@
 <body>
   <div class="d-flex align-items-center justify-content-center h-100">
     <div class="text-center">
-      <img src="logo.svg" alt="stc" class="icon">
+      <img src="./assets/images/logo.svg" alt="stc" class="icon">
       <hr>
       <hr>
       <h3 class="text-uppercase color-white"><strong>Lorem ipsum</strong></h3>
       <hr>
-      <img src="images/qr-code.png" alt="stc" class="qr-code">
+      <img src="assets/images/qr-code.png" alt="stc" class="qr-code">
     </div>
   </div>
 </body>

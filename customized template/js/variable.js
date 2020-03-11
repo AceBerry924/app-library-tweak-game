@@ -1,1 +1,0 @@
-var testings = ['text', '2test', '3test', '4test', '5test'];

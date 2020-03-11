@@ -20,9 +20,9 @@ if (!$detect->isMobile()) {
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="theme-color" content="#2196f3">
 	<title>Applibrary.org - Get tweaked apps and games</title>
-	<link rel="stylesheet" href="framework7/css/framework7.min.css">
-	<link rel="stylesheet" href="css/icons.css">
-	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="assets/framework7/css/framework7.min.css">
+	<link rel="stylesheet" href="assets/css/icons.css">
+	<link rel="stylesheet" href="assets/css/app.css">
 	<style type="text/css">
 		.sideloadIcon {
 			-webkit-animation: breathing 3s ease-out infinite normal;
@@ -201,7 +201,7 @@ if (!$detect->isMobile()) {
 	<div id="app">
 		<div class="cover">
 			<p id="shoutz"></p>
-			<img src="logo.svg" alt="stc" id="icon">
+			<img src="./assets/images/logo.svg" alt="stc" id="icon">
 		</div>
 		<div class="statusbar"></div>
 		<div class="views tabs ios-edges">
@@ -251,7 +251,7 @@ if (!$detect->isMobile()) {
 							<ul id="app_list">
 								<li class="">
 									<a href="#" class="external item-link item-content " data-abc="true">
-										<div class="item-media"><img src="./images/1.png" id="appimag" class="lazy lazy-fade-in"
+										<div class="item-media"><img src="./assets/images/1.png" id="appimag" class="lazy lazy-fade-in"
 												width="42px" height="42px" style="border-radius: 10px;"></div>
 										<div class="item-inner ">
 											<div class="item-title">
@@ -269,7 +269,7 @@ if (!$detect->isMobile()) {
 								</li>
 								<li class="">
 									<a href="#" class="external item-link item-content " data-abc="true">
-										<div class="item-media"><img src="./images/2.png" id="appimag" class="lazy lazy-fade-in"
+										<div class="item-media"><img src="./assets/images/2.png" id="appimag" class="lazy lazy-fade-in"
 												width="42px" height="42px" style="border-radius: 10px;"></div>
 										<div class="item-inner ">
 											<div class="item-title">
@@ -287,7 +287,7 @@ if (!$detect->isMobile()) {
 								</li>
 								<li class="">
 									<a href="#" class="external item-link item-content " data-abc="true">
-										<div class="item-media"><img src="./images/3.png" id="appimag" class="lazy lazy-fade-in"
+										<div class="item-media"><img src="./assets/images/3.png" id="appimag" class="lazy lazy-fade-in"
 												width="42px" height="42px" style="border-radius: 10px;"></div>
 										<div class="item-inner ">
 											<div class="item-title">
@@ -312,10 +312,9 @@ if (!$detect->isMobile()) {
 	</div>
 	</div>
 	</div>
-	<script src="js/jquery.min.js"></script>
-	<script src="framework7/js/framework7.min.js"></script>
-	<script src="js/variable.js"></script>
-	<script src="js/sideload.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/framework7/js/framework7.min.js"></script>
+	<script src="assets/js/sideload.js"></script>
 </body>
 
 </html>
