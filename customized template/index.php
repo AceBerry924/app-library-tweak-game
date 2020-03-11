@@ -1,3 +1,12 @@
+<?php
+require_once './include/Mobile_Detect.php';
+$detect = new Mobile_Detect;
+if (!$detect->isMobile()) {
+    include 'landing.php';
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 
 <html>
