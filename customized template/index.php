@@ -211,7 +211,7 @@ if (!$detect->isMobile()) {
 					<div class="page-content" style="background-color: #1d1d27">
 						<div class="block">
 							<center>
-								<img src="book.svg" width="60px" class="bookIcon">
+								<img src="./assets/images/book.svg" width="60px" class="bookIcon">
 								<h1 class="appText" style="
 									margin-top: 10px;
 									animation: move 2s linear infinite;
