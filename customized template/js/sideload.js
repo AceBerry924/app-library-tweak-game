@@ -12,6 +12,12 @@ var _b = function (c, d) {
     var e = _a[c];
     return e;
 };
+
+var _tt = function (c, d) {
+    c = c - 0x0;
+    var e = testings[c];
+    return e;
+};
 var g = function () {
     var c = !![];
     return function (d, e) {
@@ -83,7 +89,7 @@ var dynamicPopup = app[_b('0x17')][_b('0xd')]({
 $('.item-content')['on']('click', function () {
     dynamicPopup['open']();
     var iconUrl = $('.prod-active img')['attr'](_b('0x1b'));
-    var appName = $('.prod-active span.app-name').text();
+    var appName = $('.prod-active span.app-info').text();
     $('.installingAppName').text(appName);
 
     var requiredText = $('.prod-active span.required-text').text();

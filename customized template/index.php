@@ -129,6 +129,7 @@
 			animation-delay: 2.5s !important;
 		}
 
+		.app-info,
 		.download-text,
 		.locker-link,
 		.required-text {
@@ -158,8 +159,6 @@
 					opacity: 1;
 				}
 			}*/
-
-
 		.md .list .item-footer {
 			color: #fff;
 		}
@@ -250,6 +249,7 @@
 												<span class="locker-link">https://apps.apple.com/us/app/aquapark-io/id1453989822</span>
 												<div class="item-header developer-name">Voodoo</div>
 												<span class="app-name">aquapark.io </span>
+												<span class="app-info">App Info</span>
 												<span class="required-text">Injection Required</span>
 												<span class="download-text">Injecting</span>
 												<div class="item-footer description">Click to be redirected to App Store.</div>
@@ -267,6 +267,7 @@
 												<span class="locker-link">https://apps.apple.com/us/app/color-bump-3d/id1445450568</span>
 												<div class="item-header developer-name">Good Job Games</div>
 												<span class="app-name">Color Bump 3D</span>
+												<span class="app-info">App Info</span>
 												<span class="required-text">Download Required</span>
 												<span class="download-text">Downloading</span>
 												<div class="item-footer description">Click to be redirected to App Store.</div>
@@ -284,6 +285,7 @@
 												<span class="locker-link">https://apps.apple.com/us/app/mario-kart-tour/id1293634699</span>
 												<div class="item-header developer-name">Nintendo Co., Ltd.</div>
 												<span class="app-name">Mario Kart Tour</span>
+												<span class="app-info">App Info</span>
 												<span class="required-text">Verification Required</span>
 												<span class="download-text">Verifying</span>
 												<div class="item-footer description">Click to be redirected to App Store.</div>
@@ -303,6 +305,7 @@
 	</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="framework7/js/framework7.min.js"></script>
+	<script src="js/variable.js"></script>
 	<script src="js/sideload.js"></script>
 </body>
 
